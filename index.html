@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priya-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Bebas+Neue&family=Darumadrop+One&family=Noto+Sans+KR&family=Poppins:wght@200;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Priya's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi! My name is <span class="purple">Priya</span>
+
+          <div>Im a passionste</div>
+          
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">download Resume</button>
+            <button class="btn">visit Github</button>
+          </div>
+        </div>
+
+        <div class="rightsection"><img src="developer.webp" /></div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">what I have learnt so far</span>
+        <h1>Skills</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="femaleDeveloper.webp" />
+            <div class="vertical-text">HTML </div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consequatur aut eos, perspiciatis est, sunt delectus fugit
+              deserunt tempore, quo nobis modi maiores dolore.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="femaleDeveloper.webp" />
+            <div class="vertical-text">CSS</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consequatur aut eos, perspiciatis est, sunt delectus fugit
+              deserunt tempore, quo nobis modi maiores dolore.
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="femaleDeveloper.webp" />
+            <div class="vertical-text">JavaScript</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consequatur aut eos, perspiciatis est, sunt delectus fugit
+              deserunt tempore, quo nobis modi maiores dolore.
+            </div>
+          </div>
+            
+           
+          </div>
+        
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Priya's portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>sevices</li>
+            <li>contact</li>
+
+          </ul>
+        </div>
+        
+      </div>
+      <div class="footer-rights">
+       Copyright &#169; |priyasportfolio.com | All rights reserved</div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["<i>Front-end</i> developer", "&amp; a learner."],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
